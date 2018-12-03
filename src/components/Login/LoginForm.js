@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './LoginForm.scss'
-import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import {
     Form, Icon, Input, Button, Checkbox,
@@ -49,7 +49,7 @@ import {
             <Button type="primary" htmlType="submit" className="login-form-button" style={{width:100+'%'}}>
              登陆
             </Button>
-            或者 <NavLink to="/register">现在注册!</NavLink>
+            或者 <Link to="/register">现在注册!</Link>
           </FormItem>
         </Form>
       );
